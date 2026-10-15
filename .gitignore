@@ -1,0 +1,12 @@
+bin/
+obj/
+dist/
+*.user
+*.suo
+.vs/
+.idea/
+*.dll
+*.pdb
+!thunderstore/icon.png
+Directory.Build.local.props
+.DS_Store

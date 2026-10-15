@@ -1,0 +1,33 @@
+[config]
+schemaVersion = "0.0.1"
+
+[package]
+namespace = "minortom"
+name = "Continue"
+versionNumber = "1.0.0"
+description = "Adds a Continue button to the main menu that resumes your last character in the last local world or server."
+websiteUrl = "https://github.com/benjcrich/Continue"
+containsNsfwContent = false
+
+[package.dependencies]
+"denikson-BepInExPack_Valheim" = "5.4.2333"
+
+[build]
+icon = "./thunderstore/icon.png"
+readme = "./thunderstore/README.md"
+outdir = "./dist"
+
+[[build.copy]]
+source = "./bin/Release/Continue.dll"
+target = "BepInEx/plugins/Continue/"
+
+[[build.copy]]
+source = "./LICENSE"
+target = "/"
+
+[publish]
+repository = "https://thunderstore.io"
+communities = ["valheim"]
+
+[publish.categories]
+valheim = ["mods", "misc"]

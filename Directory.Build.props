@@ -1,0 +1,7 @@
+<Project>
+  <PropertyGroup>
+    <ValheimDir Condition="'$(ValheimDir)' == ''">$(HOME)/.local/share/Steam/steamapps/common/Valheim</ValheimDir>
+    <ValheimManaged>$(ValheimDir)/valheim_Data/Managed</ValheimManaged>
+    <BepInExDir Condition="'$(BepInExDir)' == ''">$(HOME)/.config/r2modmanPlus-local/Valheim/profiles/Niiiiiiiiiiiick/BepInEx</BepInExDir>
+  </PropertyGroup>
+</Project>

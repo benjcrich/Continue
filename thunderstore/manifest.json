@@ -1,0 +1,9 @@
+{
+  "name": "Continue",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/benjcrich/Continue",
+  "description": "Adds a Continue button to the main menu that resumes your last character in the last local world or server.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2333"
+  ]
+}
